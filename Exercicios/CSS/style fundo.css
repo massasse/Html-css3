@@ -1,13 +1,15 @@
 body{
-    background-color: #4507ef;
+    background-image: linear-gradient(to bottom, #4507F0,#363146);
+    height: 100vh;
 }
 
 .quadrado {
     border-radius: 20px;
     border: solid 1px #fff;
-    height: 200px;
+    height: 170px;
     margin: 10px;
     background-image: url('/Exercicios/IMG/wallpaper003.jpg');
+    background-repeat: no-repeat;
 }
 
 div#b1 {
@@ -16,9 +18,9 @@ div#b1 {
 }
 
 div#b2 {
-    background-position: left bottom ;
+    background-position: right center ;
 }
 
 div#b3 {
-   background-position: left center ; 
+   background-position: left bottom ; 
 }
