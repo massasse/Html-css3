@@ -29,7 +29,7 @@ header {
     text-decoration: none;
     font-size: 1.1em;
     font-weight: bold;
-    color: #b00ba2;
+    color: #FF831C;
 }
 
 #contra {
@@ -46,7 +46,7 @@ header {
     height: 30px;
     border-radius: 5px;
     border: none;
-    background-image: linear-gradient(to right, #0b0269, #761081);
+    background-image: linear-gradient(to right, #FF831C, #860603);
     color: #fff;
     font-size: 1em;
     font-weight: bold;
@@ -121,6 +121,7 @@ main {
 }
 
 #chamada {
+    min-width: 450px;
     position: relative;
     left: 50%;
     transform: translate(-50%);
@@ -143,7 +144,7 @@ main {
     scale: 1.05;
     display: inline-block;
     color: #fff;
-    background-color: black;
+     background-image: linear-gradient(to right, #FF831C, #860603);
     width: 170px;
     text-align: center;
     font-weight: 600;
@@ -171,7 +172,7 @@ main {
      display: inline-block;
     color: #000000;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 0px 1px rgba(60, 60, 60, 0.242);
+    box-shadow: 0px 0px 6px 4px rgba(60, 60, 60, 0.242);
     width: 170px;
     text-align: center;
     font-weight: 600;
@@ -179,4 +180,36 @@ main {
     border-radius: 11px;
     margin: 20px 5px 20px 5px;
     cursor: pointer;
+}
+#socias{
+    margin-top: 5%;
+    display: inline-block;
+ position: relative;
+ left: 50%;
+transform: translate(-50%);
+}
+.github{
+    width: 30px;
+    margin: 7px;
+}
+.whatsapp{
+  width: 30px;
+    margin: 7px;  
+}.youtube{
+   width: 30px;
+    margin: 7px; 
+}
+.github:hover{
+    width: 30px;
+    margin: 7px;
+    scale: 1.07;
+}
+.whatsapp:hover{
+  width: 30px;
+    margin: 7px; 
+    scale: 1.07; 
+}.youtube:hover{
+   width: 30px;
+    margin: 7px;
+    scale: 1.07;
 }
