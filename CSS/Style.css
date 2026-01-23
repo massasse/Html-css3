@@ -2,13 +2,13 @@ body {
     margin: 0;
     font-size: 1em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+min-width: 450px;
 }
 
 header {
-min-width: 98%;
+width: 97vvw;
     padding: 5px 10px;
-    height: 50px;
+    height: 8vh;
     box-shadow: 0px 1px 1px 1px rgba(60, 60, 60, 0.242);
 }
 
@@ -23,7 +23,7 @@ min-width: 98%;
     font-size: 1.1em;
     font-weight: bold;
     color: black;
-    margin: 0px 20px;
+    margin: 0px 15px 0px 7px;
 }
 
 .nav:hover {
@@ -36,7 +36,7 @@ min-width: 98%;
     display: inline-block;
 }
 #contra {
-    height: 30px;
+    height: 5vh;
     border-radius: 5px;
     border: none;
     background-color: black;
@@ -65,9 +65,9 @@ main {
     background-position: top center;
     background-size: cover;
     width: 200px;
+    height: 200px;
     max-width: 600px;
     max-height: 600px;
-    height: 200px;
     position: relative;
     left: 50%;
     top: 20%;
@@ -96,16 +96,11 @@ main {
 }
 
 #Nome {
-    font-size: 2.5em;
+    font-size: 5,5vw;
     text-align: center;
     margin: 5px;
 }
 
-#Nome:hover {
-    font-size: 2.5em;
-    text-align: center;
-    margin: 5px;
-}
 
 #Profissao {
     font-size: 25px;
@@ -186,6 +181,7 @@ main {
 }
 #socias{
     margin-top: 5%;
+    margin-bottom: 100px;
     display: inline-block;
  position: relative;
  left: 50%;
@@ -215,4 +211,80 @@ transform: translate(-50%);
    width: 30px;
     margin: 7px;
     scale: 1.07;
+}
+
+#destaque{
+    padding: 50px 0px 0px 0px ;
+    background-color: rgba(209, 206, 201, 0.491);
+}
+
+#destaque>section>h1,h2{
+    text-align: center;
+}
+
+.menbros{
+    position: relative;
+    left: 50%;
+transform: translate(-50%);
+}
+
+.caixa1{
+background-color: #fff;
+width: 380px;
+margin: 5px;
+height: 500px;
+display: inline-block;
+border-radius: 20px;
+}
+.imagem1{
+width: 381px;
+height: 200px;
+background-color: #fff;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+background-image: url('/IMG/laboratorio1.jpg');
+background-size: cover;
+}
+.caixa2{
+background-color: #fff;
+width: 380px;
+margin: 5px;
+height: 500px;
+display: inline-block;
+border-radius: 20px;
+}
+.imagem2{
+width: 381px;
+height: 200px;
+background-color: #fff;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+background-image: url('/IMG/laboratorio1.jpg');
+background-size: cover;
+
+}
+.caixa3{
+background-color: #fff;
+width: 380px;
+margin: 5px;
+height: 500px;
+display: inline-block;
+border-radius: 20px;
+}
+.imagem3{
+width: 381px;
+height: 200px;
+background-color: #fff;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+background-image: url('/IMG/laboratorio1.jpg');
+background-size: cover;
+}
+#lab{
+    text-align: left;
+    padding:  20px 20px 20px 20px;
+}
+#lab>h4{margin: 0%;}
+.botao-lab{
+    width: 1px;
 }
