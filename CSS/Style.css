@@ -5,12 +5,17 @@ body {
 min-width: 450px;
 }
 
+
+/* style Navegacao */
+
+
 header {
 width: 97vvw;
     padding: 5px 10px;
     height: 8vh;
     box-shadow: 0px 1px 1px 1px rgba(60, 60, 60, 0.242);
 }
+
 
 #nav {
     display: inline-block;
@@ -56,9 +61,16 @@ width: 97vvw;
     scale: 1.1;
 }
 
+
+/* Pefil Principal*/
+
+
 main {
     height: 100vh;
 }
+
+
+/* Foto de perfil*/
 
 #perfil {
     background-image: url('../IMG/perfil1.jpg');
@@ -179,6 +191,11 @@ main {
     margin: 20px 5px 20px 5px;
     cursor: pointer;
 }
+
+
+/* Redes sociais*/
+
+
 #socias{
     margin-top: 5%;
     margin-bottom: 100px;
@@ -213,6 +230,10 @@ transform: translate(-50%);
     scale: 1.07;
 }
 
+
+/*  Destaque    */
+
+
 #destaque{
     padding: 50px 0px 0px 0px ;
     background-color: rgba(209, 206, 201, 0.491);
@@ -228,6 +249,8 @@ transform: translate(-50%);
 transform: translate(-50%);
 }
 
+
+/*  Laboratorio   */
 .caixa1{
 background-color: #fff;
 width: 380px;
@@ -245,6 +268,8 @@ border-top-right-radius: 20px;
 background-image: url('/IMG/laboratorio1.jpg');
 background-size: cover;
 }
+
+/*  Design Grafico  */
 .caixa2{
 background-color: #fff;
 width: 380px;
@@ -263,6 +288,9 @@ background-image: url('/IMG/laboratorio1.jpg');
 background-size: cover;
 
 }
+
+/* DEV web Frontend and backend*/
+
 .caixa3{
 background-color: #fff;
 width: 380px;
@@ -280,11 +308,53 @@ border-top-right-radius: 20px;
 background-image: url('/IMG/laboratorio1.jpg');
 background-size: cover;
 }
+
+/*__________________________________*/
+
 #lab{
     text-align: left;
     padding:  20px 20px 20px 20px;
 }
-#lab>h4{margin: 0%;}
 .botao-lab{
-    width: 1px;
+    width: 100%;
+}
+
+.botao-lab>span{
+    display: inline-block;
+    border: solid 1px #000000;
+    width: 40%;
+}
+
+/*__________________________________*/
+
+#Design{
+    text-align: left;
+    padding:  20px 20px 20px 20px;
+}
+
+.botao-design{
+    width: 100%;
+}
+
+.botao-design>span{
+  display: inline-block;
+    border: solid 1px #000000;
+    width: 40%;  
+}
+
+/*__________________________________*/
+
+#dev{
+    text-align: left;
+    padding:  20px 20px 20px 20px;
+}
+
+.botao-dev{
+    width: 100%;
+}
+
+.botao-dev>span{
+  display: inline-block;
+    border: solid 1px #000000;
+    width: 40%;  
 }
