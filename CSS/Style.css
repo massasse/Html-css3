@@ -132,10 +132,9 @@ main {
 
 #chamada {
     min-width: 450px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-    display: inline-block;
+   display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .Projeto {
@@ -199,10 +198,9 @@ main {
 #socias{
     margin-top: 5%;
     margin-bottom: 100px;
-    display: inline-block;
- position: relative;
- left: 50%;
-transform: translate(-50%);
+ display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .github{
     width: 30px;
