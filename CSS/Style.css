@@ -41,23 +41,26 @@ width: 97vvw;
     display: inline-block;
 }
 #contra {
-    height: 5vh;
+    
     border-radius: 5px;
     border: none;
     background-color: black;
     color: #fff;
     font-size: 1em;
     font-weight: 600;
+    padding: 5px;
+    cursor: pointer;
 }
 
 #contra:hover {
     height: 30px;
-    border-radius: 5px;
+     border-radius: 5px;
     border: none;
     background-image: linear-gradient(to right, #FF831C, #860603);
-    color: #fff;
-    font-size: 1em;
-    font-weight: bold;
+    font-size: 1em;color: #fff;
+    font-weight: 600;
+    padding: 5px;
+    cursor: pointer;
     scale: 1.1;
 }
 
