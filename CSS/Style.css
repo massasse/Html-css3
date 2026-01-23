@@ -73,7 +73,7 @@ main {
 /* Foto de perfil*/
 
 #perfil {
-    background-image: url('../IMG/perfil1.jpg');
+    background-image: url('../IMG/ivanildo.png');
     background-position: top center;
     background-size: cover;
     width: 200px;
@@ -92,7 +92,7 @@ main {
 #perfil:hover {
     box-shadow: 2px 2px 10px 2px rgb(60, 60, 60);
     scale: 1.02;
-    background-image: url('../IMG/perfil1.jpg');
+    background-image: url('../IMG/ivanildo.png');
     background-position: top center;
     background-size: cover;
     width: 200px;
@@ -127,7 +127,7 @@ main {
     margin: 10px auto 10px auto;
     text-align: center;
     max-width: 60%;
-    color: rgb(100, 100, 99);
+    color: #646463;
 }
 
 #chamada {
@@ -236,17 +236,19 @@ transform: translate(-50%);
 
 #destaque{
     padding: 50px 0px 0px 0px ;
-    background-color: rgba(209, 206, 201, 0.491);
+    background-color: #d1cec97d;
 }
 
-#destaque>section>h1,h2{
+#destaque>section>h1,
+#destaque>section>h2{
     text-align: center;
 }
 
 .menbros{
-    position: relative;
-    left: 50%;
-transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
 }
 
 
@@ -254,13 +256,15 @@ transform: translate(-50%);
 .caixa1{
 background-color: #fff;
 width: 380px;
-margin: 5px;
+margin: 10px;
 height: 500px;
 display: inline-block;
 border-radius: 20px;
+box-shadow: 0px 0px 15px 4px  #646463c2;
+
 }
 .imagem1{
-width: 381px;
+width: 380px;
 height: 200px;
 background-color: #fff;
 border-top-left-radius: 20px;
@@ -273,10 +277,12 @@ background-size: cover;
 .caixa2{
 background-color: #fff;
 width: 380px;
-margin: 5px;
+margin: 10px;
 height: 500px;
 display: inline-block;
 border-radius: 20px;
+box-shadow: 0px 0px 15px 4px  #646463c2;
+
 }
 .imagem2{
 width: 381px;
@@ -284,7 +290,7 @@ height: 200px;
 background-color: #fff;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
-background-image: url('/IMG/laboratorio1.jpg');
+background-image: url('/IMG/designer-grafico1.jpg');
 background-size: cover;
 
 }
@@ -294,10 +300,12 @@ background-size: cover;
 .caixa3{
 background-color: #fff;
 width: 380px;
-margin: 5px;
+margin: 10px;
 height: 500px;
 display: inline-block;
 border-radius: 20px;
+box-shadow: 0px 0px 15px 4px #646463c2;
+
 }
 .imagem3{
 width: 381px;
@@ -305,56 +313,54 @@ height: 200px;
 background-color: #fff;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
-background-image: url('/IMG/laboratorio1.jpg');
+background-image: url('/IMG/dev1.jpg');
 background-size: cover;
 }
 
 /*__________________________________*/
 
-#lab{
-    text-align: left;
-    padding:  20px 20px 20px 20px;
-}
-.botao-lab{
-    width: 100%;
-}
-
-.botao-lab>span{
-    display: inline-block;
-    border: solid 1px #000000;
-    width: 40%;
-}
-
-/*__________________________________*/
-
-#Design{
-    text-align: left;
-    padding:  20px 20px 20px 20px;
-}
-
-.botao-design{
-    width: 100%;
-}
-
-.botao-design>span{
-  display: inline-block;
-    border: solid 1px #000000;
-    width: 40%;  
-}
-
-/*__________________________________*/
+#lab,
+#Design,
 
 #dev{
     text-align: left;
     padding:  20px 20px 20px 20px;
+    height: 40%;
 }
 
+#lab>span,
+#Design>span,
+#dev>span{
+    font-weight: 500;
+    font-size: 11px;
+    border-radius: 16px;
+    background-color: #d1cec97d;display: inline-block;
+    padding: 8px 7px;
+}
+#lab>p,
+#Design>p,
+#dev>p{
+    color:#646463
+}
+
+.botao-lab,
+.botao-design,
 .botao-dev{
+    
+     text-align: center;
     width: 100%;
 }
 
+.botao-lab>span,
+.botao-design>span,
 .botao-dev>span{
   display: inline-block;
-    border: solid 1px #000000;
-    width: 40%;  
+    width: 40%;
+padding: 7px ;
+    border-radius: 8px;
+    font-size: 14px;  
+font-weight: 600;
+box-shadow: 0px 0px 1px 1px #64646352;
 }
+
+/*__________________________________*/
