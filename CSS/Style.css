@@ -269,7 +269,7 @@ height: 200px;
 background-color: #fff;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
-background-image: url('/IMG/laboratorio1.jpg');
+background-image: url('../IMG/laboratorio1.jpg');
 background-size: cover;
 }
 
@@ -290,7 +290,7 @@ height: 200px;
 background-color: #fff;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
-background-image: url('/IMG/designer-grafico1.jpg');
+background-image: url('../IMG/designer-grafico1.jpg');
 background-size: cover;
 
 }
@@ -313,7 +313,7 @@ height: 200px;
 background-color: #fff;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
-background-image: url('/IMG/dev1.jpg');
+background-image: url('../IMG/dev1.jpg');
 background-size: cover;
 }
 
