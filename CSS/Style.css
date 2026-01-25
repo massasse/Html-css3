@@ -365,4 +365,54 @@ font-weight: 600;
 box-shadow: 0px 0px 1px 1px #64646352;
 }
 
-/*__________________________________*/
+/*Contacto*/
+
+#conteiner{
+padding-top: 70px;
+    width: 100%;
+    background-color: #fff;display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.part1,.part2{
+min-width: 541px;
+height: 580px;
+margin: 10px;
+background-color: #fff;
+font-size: 18px;
+box-shadow:0px 0px 1px 1px #6464633b ;
+border-radius: 30px;
+padding: 20px 30px ;
+}
+.part1>.info>p,.part2{
+margin:0px
+}
+.email{
+    border-radius: 5px;
+    padding: 4px;
+width: 100%;
+background-color: #ffffff;
+cursor: pointer;
+border-radius: 5px;
+
+}
+.email:hover{
+    background-color: rgba(22, 77, 206,);
+    border-radius: 5px;
+    padding: 4px;
+width: 100%;
+background-color: #c7ced8;
+cursor: pointer;
+border-radius: 5px;
+
+}
+.email>div{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(22, 77, 206);
+    border-radius: 5px;
+    margin-left: 10px;
+   }
+
+
+
