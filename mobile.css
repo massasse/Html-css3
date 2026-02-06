@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-size: 1em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-min-width: 450px;
+max-width: 480px;
 }
 
 
@@ -79,10 +79,8 @@ main {
     background-image: url('../IMG/ivanildo.png');
     background-position: top center;
     background-size: cover;
-    width: 200px;
-    height: 200px;
-    max-width: 600px;
-    max-height: 600px;
+    width: 100px;
+    height: 100px;
     position: relative;
     left: 50%;
     top: 20%;
