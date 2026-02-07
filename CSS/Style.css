@@ -1,4 +1,4 @@
-body {
+html,body {
     margin: 0;
     font-size: 1em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -10,17 +10,15 @@ min-width: 450px;
 
 
 header {
-width: 97vvw;
-    padding: 5px 10px;
-    height: 8vh;
+    height: 60px;
     box-shadow: 0px 1px 1px 1px rgba(60, 60, 60, 0.242);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
 }
 
 
-#nav {
-    display: inline-block;
-    margin: 10px 30px;
-}
 
 .nav {
     
@@ -37,9 +35,6 @@ width: 97vvw;
     font-weight: bold;
     color: #FF831C;
 }
-.b1{
-    display: inline-block;
-}
 #contra {
     
     border-radius: 5px;
@@ -48,20 +43,12 @@ width: 97vvw;
     color: #fff;
     font-size: 1em;
     font-weight: 600;
-    padding: 5px;
+    padding: 10px;
     cursor: pointer;
 }
 
 #contra:hover {
-    height: 30px;
-     border-radius: 5px;
-    border: none;
     background-image: linear-gradient(to right, #FF831C, #860603);
-    font-size: 1em;color: #fff;
-    font-weight: 600;
-    padding: 5px;
-    cursor: pointer;
-    scale: 1.1;
 }
 
 
@@ -74,40 +61,21 @@ main {
 
 
 /* Foto de perfil*/
-
+#pai-perfil{
+ height: 300px;
+ display: flex; 
+ justify-self: center;  
+ align-items: center;
+}
 #perfil {
     background-image: url('../IMG/ivanildo.png');
     background-position: top center;
     background-size: cover;
     width: 200px;
     height: 200px;
-    max-width: 600px;
-    max-height: 600px;
-    position: relative;
-    left: 50%;
-    top: 20%;
-    transform: translate(-50%, -20%);
     border-radius: 50%;
-    margin-top: 15%;
 
-}
 
-#perfil:hover {
-    box-shadow: 2px 2px 10px 2px rgb(60, 60, 60);
-    scale: 1.02;
-    background-image: url('../IMG/ivanildo.png');
-    background-position: top center;
-    background-size: cover;
-    width: 200px;
-    max-width: 600px;
-    max-height: 600px;
-    height: 200px;
-    position: relative;
-    left: 50%;
-    top: 20%;
-    transform: translate(-50%, -20%);
-    border-radius: 50%;
-    margin-top: 15%;
 }
 
 #Nome {
